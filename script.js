@@ -1,14 +1,3 @@
-function shuffle(array) {
-    let currentIndex = array.length, randomIndex;
-    while (currentIndex != 0) {
-        randomIndex = Math.floor(Math.random() * currentIndex);
-        currentIndex--;
-        [array[currentIndex], array[randomIndex]] = [array[randomIndex], array[currentIndex]];
-    }
-    return array;
-}
-
-let selectedQuestions = shuffle(questions).slice(0, 10);
 
 const start_btn = document.querySelector(".start_btn button");
 const info_box = document.querySelector(".info_box");
@@ -37,6 +26,20 @@ continue_btn.onclick = ()=>{
     startTimer(15);
     startTimerLine(0);
 }
+
+function Mixeo(array) {
+    let currentIndex = array.length, randomIndex;
+    while (currentIndex != 0) {
+        randomIndex = Math.floor(Math.random() * currentIndex);
+        currentIndex--;
+        [array[currentIndex], array[randomIndex]] = [array[randomIndex], array[currentIndex]];
+    }
+    return array;
+}
+
+let selectedQuestions = Mixeo(questions).slice(0, 10);
+
+
 
 let timeValue = 15;
 let que_count = 0;
@@ -144,6 +147,7 @@ function optionSelected(answer){
     next_btn.classList.add("show");
 }
 
+
 function showResult(){
     info_box.classList.remove("activeInfo");
     quiz_box.classList.remove("activeQuiz");
@@ -166,6 +170,7 @@ function showResult(){
         scoreText.innerHTML = scoreTag;
     }
 }
+
 
 function startTimer(time){
     counter = setInterval(timer, 1000);
@@ -205,6 +210,7 @@ function startTimerLine(time){
         }
     }
 }
+
 
 function queCounter(index){
     let totalQueCounTag = '<span><p>'+ index +'</p> de <p>'+ selectedQuestions.length +'</p> Preguntas</span>';
