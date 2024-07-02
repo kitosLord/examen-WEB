@@ -68,12 +68,12 @@ let questions = [
   {
     numb: 7,
     question: "¿Qué etiqueta HTML se utiliza para insertar una imagen?",
-    answer: "<img>",
+    answer: "etiqueta img",
     options: [
-      "<picture>",
-      "<image>",
-      "<img>",
-      "<src>"
+      "etiqueta picture",
+      "etiqueta image",
+      "etiqueta img",
+      "etiqueta src"
     ]
   },
   {
