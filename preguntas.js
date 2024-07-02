@@ -90,12 +90,12 @@ let questions = [
   {
     numb: 9,
     question: "¿Qué etiqueta HTML se utiliza para crear un hipervínculo?",
-    answer: "<a>",
+    answer: "etiqueta a",
     options: [
-      "<link>",
-      "<a>",
-      "<href>",
-      "<hyperlink>"
+      " etiqueta link",
+      " etiqueta a",
+      "etiqueta href",
+      "etiqueta hyperlink"
     ]
   },
   {
@@ -134,12 +134,12 @@ let questions = [
   {
     numb: 13,
     question: "¿Qué etiqueta HTML se utiliza para definir un encabezado de primer nivel?",
-    answer: "<h1>",
+    answer: "etiqueta h1",
     options: [
-      "<head>",
-      "<h1>",
-      "<title>",
-      "<header>"
+      "etiqueta head",
+      "etiqueta h1",
+      "etiqueta title",
+      "etiqueta header"
     ]
   },
   {
@@ -178,12 +178,12 @@ let questions = [
   {
     numb: 17,
     question: "¿Qué etiqueta HTML se utiliza para definir un párrafo?",
-    answer: "<p>",
+    answer: "etiqueta p",
     options: [
-      "<text>",
-      "<para>",
-      "<p>",
-      "<paragraph>"
+      "etiqueta text",
+      "etiqueta para",
+      "etiqueta p",
+      "etiqueta paragraph"
     ]
   },
   {
@@ -233,12 +233,12 @@ let questions = [
   {
     numb: 22,
     question: "¿Qué etiqueta HTML se utiliza para insertar una línea horizontal?",
-    answer: "<hr>",
+    answer: "etiqueta hr",
     options: [
-      "<line>",
-      "<br>",
-      "<hr>",
-      "<border>"
+      "etiqueta line",
+      "etiqueta br",
+      "etiqueta hr",
+      "etiqueta border"
     ]
   },
   {
@@ -255,12 +255,12 @@ let questions = [
   {
     numb: 24,
     question: "¿Qué etiqueta HTML se utiliza para definir una tabla?",
-    answer: "<table>",
+    answer: "etiqueta table",
     options: [
-      "<tab>",
-      "<table>",
-      "<grid>",
-      "<list>"
+      " etiqueta tab",
+      "etiqueta table",
+      "etiqueta grid",
+      "etiqueta list"
     ]
   },
   {
@@ -288,12 +288,12 @@ let questions = [
   {
     numb: 27,
     question: "¿Qué etiqueta HTML se utiliza para definir un encabezado de tercer nivel?",
-    answer: "<h3>",
+    answer: "etiqueta h3",
     options: [
-      "<head>",
-      "<h3>",
-      "<title>",
-      "<header>"
+      " etiqueta head",
+      "etiqueta h3",
+      "etiqueta title",
+      "etiqueta header"
     ]
   },
   {
@@ -310,12 +310,12 @@ let questions = [
   {
     numb: 29,
     question: "¿Qué etiqueta HTML se utiliza para definir un formulario?",
-    answer: "<form>",
+    answer: "etiqueta form",
     options: [
-      "<input>",
-      "<form>",
-      "<button>",
-      "<submit>"
+      " etiqueta input",
+      "etiqueta form",
+      "etiqueta button",
+      "etiqueta submit"
     ]
   },
   {
